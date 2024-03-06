@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <img id="img" src="en.jpg" height="300" width="300" style="border: 2px solid black"> <br>
+    <button onclick="changeImage()">change image</button>
+    <button onclick="revertImage()">revert image</button>
+    <script>
+        function changeImage(){
+            document.getElementById("img").src="enhypen.jpg";
+        }
+        function revertImage(){
+            document.getElementById("img").src="en.jpg";
+        }
+    </script>
+</body>
+</html>
+
+
